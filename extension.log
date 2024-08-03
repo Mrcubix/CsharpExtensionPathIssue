@@ -1,0 +1,469 @@
+```log
+Using dotnet configured on PATH
+Dotnet path: c:\program files\dotnet\dotnet.exe
+Activating C# standalone...
+Starting server at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.LanguageServer.exe
+Server arguments --logLevel Trace --razorSourceGenerator c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.razor\Microsoft.CodeAnalysis.Razor.Compiler.dll --razorDesignTimePath c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.razor\Targets\Microsoft.NET.Sdk.Razor.DesignTime.targets --telemetryLevel all --extensionLogDirectory c:\Users\tinta\AppData\Roaming\Code\logs\20240803T041856\window2\exthost\ms-dotnettools.csharp
+waiting for named pipe information from server...
+[stdout] trce: Program[0]
+      Server started with process ID 22240
+trce: Program[0]
+      .NET Runtime Version: .NET 8.0.7
+[stdout] trce: Microsoft.CodeAnalysis.LanguageServer.ExportProviderBuilder[0]
+      Composing MEF catalog using:
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.AnalyzerUtilities.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.CSharp.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.CSharp.Features.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.CSharp.Workspaces.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Elfie.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.ExternalAccess.AspNetCore.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.ExternalAccess.VisualDiagnostics.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.ExternalAccess.Xaml.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Features.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.LanguageServer.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.LanguageServer.Protocol.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Razor.Compiler.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Remote.Workspaces.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Scripting.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Workspaces.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.ServiceHub.Client.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.ServiceHub.Framework.dll    
+      c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.ServiceHub.Resources.dll.
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp.Workspaces, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.ExternalAccess.Xaml, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.ExternalAccess.AspNetCore, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.ExternalAccess.VisualDiagnostics, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.AnalyzerUtilities, Version=3.3.2.30504, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Elfie, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Razor.Compiler, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Remote.Workspaces, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Scripting, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Workspaces, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.ServiceHub.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Workspaces.MSBuild, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.ServiceHub.Framework, Version=4.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.ServiceHub.Resources, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Workspaces, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Workspaces, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Workspaces, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.CSharp.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.Features, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] trce: MEF Assembly Loader[0]
+      Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[stdout] dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.AnalyzerUtilities.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.CSharp.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.CSharp.Features.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.CSharp.Workspaces.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Elfie.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.ExternalAccess.AspNetCore.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.ExternalAccess.VisualDiagnostics.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.ExternalAccess.Xaml.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Features.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Razor.Compiler.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Remote.Workspaces.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Scripting.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Workspaces.dll added to workspace.
+dbug: LanguageServerWorkspaceFactory[0]
+      Solution-level analyzer at c:\Users\tinta\.vscode\extensions\ms-dotnettools.csharp-2.39.29-win32-x64\.roslyn\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll added to workspace.
+{"pipeName":"\\\\.\\pipe\\f2bd11ab"}
+received named pipe information from server
+attempting to connect client to server...
+client has connected to server
+[Info  - 4:32:07 AM] [Program] Language server initialized
+[ExtensionTypeRefResolver] Resolving type, Roslyn.LanguageServer.Protocol.InitializeParams
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[ExtensionTypeRefResolver] Resolving type, Roslyn.LanguageServer.Protocol.InitializeResult
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[LanguageServerHost] [02:32:08.073][Start]initialize
+[LanguageServerHost] [02:32:08.135][End]initialize
+[ExtensionTypeRefResolver] Resolving type, Roslyn.LanguageServer.Protocol.InitializedParams
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[LanguageServerHost] [02:32:08.136][Start]initialized
+[LanguageServerHost] [02:32:08.197][End]initialized
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[ExtensionTypeRefResolver] Resolving type, Roslyn.LanguageServer.Protocol.WorkspaceDiagnosticParams
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[ExtensionTypeRefResolver] Resolving type, Roslyn.LanguageServer.Protocol.WorkspaceDiagnosticReport
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[ExtensionTypeRefResolver] Resolving type, Microsoft.CodeAnalysis.LanguageServer.Handler.Diagnostics.Public.PublicWorkspacePullDiagnosticsHandler
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[LanguageServerHost] [02:32:08.208][Start]workspace/diagnostic
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[LanguageServerHost] [02:32:08.209][Start]workspace/diagnostic
+[LanguageServerHost] [02:32:08.210][Start]workspace/diagnostic
+[LanguageServerHost] PublicWorkspacePullDiagnosticsHandler(category: HotReloadDiagnostics) started getting diagnostics
+[LanguageServerHost] PublicWorkspacePullDiagnosticsHandler(category: WorkspaceDocumentsAndProject) started getting diagnostics
+[LanguageServerHost] PublicWorkspacePullDiagnosticsHandler(category: enc) started getting diagnostics
+[LanguageServerHost] previousResults.Length=0
+[LanguageServerHost] previousResults.Length=0
+[LanguageServerHost] previousResults.Length=0
+[LanguageServerHost] Processing 0 documents
+[LanguageServerHost] Processing 0 documents
+[LanguageServerHost] Closing workspace/diagnostics request
+[LanguageServerHost] Closing workspace/diagnostics request
+[LanguageServerHost] Microsoft.CodeAnalysis.LanguageServer.Handler.Diagnostics.Public.PublicWorkspacePullDiagnosticsHandler finished getting diagnostics
+[LanguageServerHost] Microsoft.CodeAnalysis.LanguageServer.Handler.Diagnostics.Public.PublicWorkspacePullDiagnosticsHandler finished getting diagnostics
+[LanguageServerHost] Processing 0 documents
+[LanguageServerHost] Closing workspace/diagnostics request
+[LanguageServerHost] Microsoft.CodeAnalysis.LanguageServer.Handler.Diagnostics.Public.PublicWorkspacePullDiagnosticsHandler finished getting diagnostics
+[LanguageServerHost] [02:32:08.218][End]workspace/diagnostic
+[LanguageServerHost] [02:32:08.218][End]workspace/diagnostic
+[LanguageServerHost] [02:32:08.218][End]workspace/diagnostic
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[ExtensionTypeRefResolver] Resolving type, Microsoft.CodeAnalysis.LanguageServer.HostWorkspace.OpenSolutionHandler+NotificationParams
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[ExtensionTypeRefResolver] Resolving type, Microsoft.CodeAnalysis.LanguageServer.HostWorkspace.OpenSolutionHandler
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[LanguageServerHost] [02:32:08.241][Start]solution/open
+[Info  - 4:32:08 AM] [LanguageServerProjectSystem] Loading c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.sln...
+[BuildHost PID 21608] Message from Process: BuildHost Runtime Version: .NET 8.0.7
+[BuildHost PID 21608] Message from Process: Registered MSBuild instance at c:\program files\dotnet\sdk\8.0.107
+[BuildHost PID 20700] Message from Process: BuildHost Runtime Version: .NET 8.0.7
+[BuildHost PID 20700] Message from Process: Registered MSBuild instance at c:\program files\dotnet\sdk\8.0.107
+[BuildHost PID 20700] Message from Process: Loading c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\CsharpExtensionIssue.Android.csproj
+[BuildHost PID 20700] Message from Process: Loading c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj
+[BuildHost PID 20700] Message from Process: Loading c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj
+[BuildHost PID 20700] Message from Process: Loading c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\CsharpExtensionIssue.Desktop.csproj
+[BuildHost PID 20700] Message from Process: Loading c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\CsharpExtensionIssue.iOS.csproj
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj (net8.0-browser) now has 3 source file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\CsharpExtensionIssue.Desktop.csproj (net8.0) now has 3 source file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj (net8.0) now has 8 source file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj (net8.0) now has 207 reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj (net8.0-browser) now has 164 reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\CsharpExtensionIssue.Desktop.csproj (net8.0) now has 218 reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj (net8.0-browser) now has 8 analyzer reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\CsharpExtensionIssue.Desktop.csproj (net8.0) now has 15 analyzer reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj (net8.0) now has 17 analyzer reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj (net8.0-browser) now has 2 analyzer config file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj (net8.0) now has 3 additional file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\CsharpExtensionIssue.Desktop.csproj (net8.0) now has 2 analyzer config file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj (net8.0) now has 2 analyzer config file(s).
+[Warn  - 4:32:09 AM] [LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj has unresolved dependencies
+[Info  - 4:32:09 AM] [LanguageServerProjectSystem] Successfully completed load of c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj
+[Error - 4:32:09 AM] [LanguageServerProjectSystem] Error while loading c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj: Exception thrown: System.ArgumentException: Project does not contain output path 'c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\obj\Debug\net8.0\Avalonia\CsharpExtensionIssue.dll' (Parameter 'outputPath')
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProjectFactory.RemoveProjectOutputPath_NoLock(SolutionChangeAccumulator solutionChanges, ProjectId projectId, String outputPath, ProjectUpdateState projectUpdateState, Boolean solutionClosing, SolutionServices solutionServices) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProjectFactory.cs:line 756
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProject.<>c__DisplayClass54_0.<ChangeProjectOutputPath>b__0(SolutionChangeAccumulator solutionChanges, ProjectUpdateState projectUpdateState, String oldValue) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProject.cs:line 342
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProject.<>c__DisplayClass104_0.<OnBatchScopeDisposedMaybeAsync>b__0(SolutionChangeAccumulator solutionChanges, ProjectUpdateState projectUpdateState) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProject.cs:line 676
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProjectFactory.<>c__DisplayClass52_0.<ApplyBatchChangeToWorkspaceMaybe_NoLockAsync>b__0(Solution oldSolution) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProjectFactory.cs:line 304
+   at Microsoft.CodeAnalysis.Workspace.<>c.<SetCurrentSolutionAsync>b__27_3(Solution oldSolution, ValueTuple`5 data) in /_/src/Workspaces/Core/Portable/Workspace/Workspace.cs:line 261
+   at Microsoft.CodeAnalysis.Workspace.SetCurrentSolutionAsync[TData](Boolean useAsync, TData data, Func`3 transformation, Boolean mayRaiseEvents, Action`3 onBeforeUpdate, Action`3 onAfterUpdate, CancellationToken cancellationToken) in /_/src/Workspaces/Core/Portable/Workspace/Workspace.cs:line 514
+   at Microsoft.CodeAnalysis.Workspace.SetCurrentSolutionAsync(Boolean useAsync, Func`2 transformation, Func`3 changeKind, Action`2 onBeforeUpdate, Action`2 onAfterUpdate, CancellationToken cancellationToken) in /_/src/Workspaces/Core/Portable/Workspace/Workspace.cs:line 251
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProjectFactory.ApplyBatchChangeToWorkspaceMaybe_NoLockAsync(Boolean useAsync, Func`3 mutation, Action`1 onAfterUpdateAlways) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProjectFactory.cs:line 297
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProjectFactory.ApplyBatchChangeToWorkspaceMaybeAsync(Boolean useAsync, Func`3 mutation, Action`1 onAfterUpdateAlways) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProjectFactory.cs:line 273
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProject.OnBatchScopeDisposedMaybeAsync(Boolean useAsync) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProject.cs:line 564
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProject.BatchScope.DisposeAsync() in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProject.cs:line 533
+   at Microsoft.CodeAnalysis.LanguageServer.HostWorkspace.LoadedProject.UpdateWithNewProjectInfoAsync(ProjectFileInfo newProjectInfo, ILogger logger) in /_/src/LanguageServer/Microsoft.CodeAnalysis.LanguageServer/HostWorkspace/LoadedProject.cs:line 196
+   at Microsoft.CodeAnalysis.LanguageServer.HostWorkspace.LanguageServerProjectSystem.LoadOrReloadProjectAsync(ProjectToLoad projectToLoad, ToastErrorReporter toastErrorReporter, BuildHostProcessManager buildHostProcessManager, CancellationToken cancellationToken) in /_/src/LanguageServer/Microsoft.CodeAnalysis.LanguageServer/HostWorkspace/LanguageServerProjectSystem.cs:line 284
+[Info  - 4:32:09 AM] [LanguageServerProjectSystem] Successfully completed load of c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\CsharpExtensionIssue.Desktop.csproj
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\CsharpExtensionIssue.iOS.csproj (net8.0-ios) now has 5 source file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\CsharpExtensionIssue.iOS.csproj (net8.0-ios) now has 214 reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\CsharpExtensionIssue.iOS.csproj (net8.0-ios) now has 17 analyzer reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\CsharpExtensionIssue.iOS.csproj (net8.0-ios) now has 2 analyzer config file(s).
+[Info  - 4:32:09 AM] [LanguageServerProjectSystem] Successfully completed load of c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\CsharpExtensionIssue.iOS.csproj
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\CsharpExtensionIssue.Android.csproj (net8.0-android) now has 4 source file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\CsharpExtensionIssue.Android.csproj (net8.0-android) now has 263 reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\CsharpExtensionIssue.Android.csproj (net8.0-android) now has 17 analyzer reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\CsharpExtensionIssue.Android.csproj (net8.0-android) now has 2 analyzer config file(s).
+[Info  - 4:32:10 AM] [LanguageServerProjectSystem] Successfully completed load of c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\CsharpExtensionIssue.Android.csproj
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[ExtensionTypeRefResolver] Resolving type, Roslyn.LanguageServer.Protocol.DidChangeWatchedFilesParams
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[ExtensionTypeRefResolver] Resolving type, Microsoft.CodeAnalysis.LanguageServer.HostWorkspace.FileWatching.LspDidChangeWatchedFilesHandler
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[ExtensionTypeRefResolver] Resolving type, Microsoft.CodeAnalysis.LanguageServer.Handler.RestoreParams
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[ExtensionTypeRefResolver] Resolving type, Microsoft.CodeAnalysis.LanguageServer.Handler.RestorePartialResult[]
+[LanguageServerHost] [02:32:10.118][Start]workspace/didChangeWatchedFiles
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[ExtensionTypeRefResolver] Resolving type, Microsoft.CodeAnalysis.LanguageServer.Handler.RestoreHandler
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[LanguageServerHost] [02:32:10.119][End]workspace/didChangeWatchedFiles
+[LanguageServerHost] [02:32:10.121][Start]workspace/_roslyn_restore
+[Info  - 4:32:10 AM] [Microsoft.CodeAnalysis.LanguageServer.DotnetCliHelper] Using dotnet executable configured on the PATH
+[Microsoft.CodeAnalysis.LanguageServer.DotnetCliHelper] Running dotnet CLI command at c:\program files\dotnet\dotnet.exe in directory c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser with arguments System.String[]
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[LanguageServerHost] [02:32:10.230][Start]workspace/diagnostic
+[LanguageServerHost] PublicWorkspacePullDiagnosticsHandler(category: HotReloadDiagnostics) started getting diagnostics
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[LanguageServerHost] [02:32:10.230][Start]workspace/diagnostic
+[LanguageServerHost] PublicWorkspacePullDiagnosticsHandler(category: enc) started getting diagnostics
+[LanguageServerHost] previousResults.Length=0
+[LanguageServerHost] previousResults.Length=0
+[LanguageServerHost] [02:32:10.230][Start]workspace/diagnostic
+[LanguageServerHost] PublicWorkspacePullDiagnosticsHandler(category: WorkspaceDocumentsAndProject) started getting diagnostics
+[LanguageServerHost] previousResults.Length=0
+[LanguageServerHost] Processing 0 documents
+[LanguageServerHost] Closing workspace/diagnostics request
+[LanguageServerHost] Microsoft.CodeAnalysis.LanguageServer.Handler.Diagnostics.Public.PublicWorkspacePullDiagnosticsHandler finished getting diagnostics
+[LanguageServerHost] Processing 0 documents
+[LanguageServerHost] Closing workspace/diagnostics request
+[LanguageServerHost] Microsoft.CodeAnalysis.LanguageServer.Handler.Diagnostics.Public.PublicWorkspacePullDiagnosticsHandler finished getting diagnostics
+[LanguageServerHost] [02:32:10.231][End]workspace/diagnostic
+[LanguageServerHost] [02:32:10.231][End]workspace/diagnostic
+[LanguageServerHost] Processing 20 documents
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[LanguageServerHost] [02:32:10.393][Start]workspace/didChangeWatchedFiles
+[LanguageServerHost] [02:32:10.393][End]workspace/didChangeWatchedFiles
+[LanguageServerHost] [02:32:10.749][End]workspace/_roslyn_restore
+[Info  - 4:32:10 AM] [LanguageServerProjectSystem] Completed (re)load of all projects in 00:00:02.2210140
+[BuildHost PID 20700] Sending a Shutdown request to the BuildHost.
+[BuildHost PID 20700] Message from Process: RPC channel closed; process exiting.
+[BuildHost PID 20700] Process shut down.
+[BuildHost PID 21608] Sending a Shutdown request to the BuildHost.
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[ExtensionTypeRefResolver] Resolving type, Microsoft.CodeAnalysis.LanguageServer.Handler.DebugConfiguration.WorkspaceDebugConfigurationParams
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[ExtensionTypeRefResolver] Resolving type, Microsoft.CodeAnalysis.LanguageServer.Handler.DebugConfiguration.ProjectDebugConfiguration[]
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[ExtensionTypeRefResolver] Resolving type, Microsoft.CodeAnalysis.LanguageServer.Handler.DebugConfiguration.WorkspaceDebugConfigurationHandler
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[BuildHost PID 21608] Process shut down.
+[LanguageServerHost] [02:32:10.760][End]solution/open
+[BuildHost PID 21608] Message from Process: RPC channel closed; process exiting.
+[LanguageServerHost] [02:32:10.760][Start]workspace/debugConfiguration
+[LanguageServerHost] [02:32:10.769][End]workspace/debugConfiguration
+[BuildHost PID 23120] Message from Process: BuildHost Runtime Version: .NET 8.0.7
+[BuildHost PID 23120] Message from Process: Registered MSBuild instance at c:\program files\dotnet\sdk\8.0.107
+[BuildHost PID 23120] Message from Process: Loading c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\CsharpExtensionIssue.iOS.csproj
+[BuildHost PID 23120] Message from Process: Loading c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\CsharpExtensionIssue.Desktop.csproj
+[BuildHost PID 23120] Message from Process: Loading c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj
+[BuildHost PID 23120] Message from Process: Loading c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\CsharpExtensionIssue.Android.csproj
+[BuildHost PID 23120] Message from Process: Loading c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj
+[LanguageServerHost] No request parameters given, using default language handler
+[ExtensionTypeRefResolver] Resolving type, Microsoft.CodeAnalysis.LanguageServer.Handler.BuildOnlyDiagnosticIdsResult
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[ExtensionTypeRefResolver] Resolving type, Microsoft.CodeAnalysis.LanguageServer.Handler.BuildOnlyDiagnosticIdsHandler
+[MEF Assembly Loader] Loading assembly Microsoft.CodeAnalysis.LanguageServer.Protocol, Version=4.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+[LanguageServerHost] [02:32:11.629][Start]workspace/buildOnlyDiagnosticIds
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\CsharpExtensionIssue.Desktop.csproj (net8.0) now has 3 source file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\CsharpExtensionIssue.Desktop.csproj (net8.0) now has 218 reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\CsharpExtensionIssue.Desktop.csproj (net8.0) now has 15 analyzer reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\CsharpExtensionIssue.Desktop.csproj (net8.0) now has 2 analyzer config file(s).
+[Info  - 4:32:11 AM] [LanguageServerProjectSystem] Successfully completed load of c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\CsharpExtensionIssue.Desktop.csproj
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj (net8.0) now has 8 source file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj (net8.0) now has 207 reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj (net8.0) now has 17 analyzer reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj (net8.0) now has 3 additional file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj (net8.0) now has 2 analyzer config file(s).
+[Error - 4:32:11 AM] [LanguageServerProjectSystem] Error while loading c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj: Exception thrown: System.ArgumentException: Project does not contain output path 'c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\obj\Debug\net8.0\Avalonia\CsharpExtensionIssue.dll' (Parameter 'outputPath')
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProjectFactory.RemoveProjectOutputPath_NoLock(SolutionChangeAccumulator solutionChanges, ProjectId projectId, String outputPath, ProjectUpdateState projectUpdateState, Boolean solutionClosing, SolutionServices solutionServices) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProjectFactory.cs:line 756
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProject.<>c__DisplayClass54_0.<ChangeProjectOutputPath>b__0(SolutionChangeAccumulator solutionChanges, ProjectUpdateState projectUpdateState, String oldValue) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProject.cs:line 342
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProject.<>c__DisplayClass104_0.<OnBatchScopeDisposedMaybeAsync>b__0(SolutionChangeAccumulator solutionChanges, ProjectUpdateState projectUpdateState) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProject.cs:line 676
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProjectFactory.<>c__DisplayClass52_0.<ApplyBatchChangeToWorkspaceMaybe_NoLockAsync>b__0(Solution oldSolution) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProjectFactory.cs:line 304
+   at Microsoft.CodeAnalysis.Workspace.<>c.<SetCurrentSolutionAsync>b__27_3(Solution oldSolution, ValueTuple`5 data) in /_/src/Workspaces/Core/Portable/Workspace/Workspace.cs:line 261
+   at Microsoft.CodeAnalysis.Workspace.SetCurrentSolutionAsync[TData](Boolean useAsync, TData data, Func`3 transformation, Boolean mayRaiseEvents, Action`3 onBeforeUpdate, Action`3 onAfterUpdate, CancellationToken cancellationToken) in /_/src/Workspaces/Core/Portable/Workspace/Workspace.cs:line 514
+   at Microsoft.CodeAnalysis.Workspace.SetCurrentSolutionAsync(Boolean useAsync, Func`2 transformation, Func`3 changeKind, Action`2 onBeforeUpdate, Action`2 onAfterUpdate, CancellationToken cancellationToken) in /_/src/Workspaces/Core/Portable/Workspace/Workspace.cs:line 251
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProjectFactory.ApplyBatchChangeToWorkspaceMaybe_NoLockAsync(Boolean useAsync, Func`3 mutation, Action`1 onAfterUpdateAlways) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProjectFactory.cs:line 297
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProjectFactory.ApplyBatchChangeToWorkspaceMaybeAsync(Boolean useAsync, Func`3 mutation, Action`1 onAfterUpdateAlways) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProjectFactory.cs:line 273
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProject.OnBatchScopeDisposedMaybeAsync(Boolean useAsync) in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProject.cs:line 564
+   at Microsoft.CodeAnalysis.Workspaces.ProjectSystem.ProjectSystemProject.BatchScope.DisposeAsync() in /_/src/Workspaces/Core/Portable/Workspace/ProjectSystem/ProjectSystemProject.cs:line 533
+   at Microsoft.CodeAnalysis.LanguageServer.HostWorkspace.LoadedProject.UpdateWithNewProjectInfoAsync(ProjectFileInfo newProjectInfo, ILogger logger) in /_/src/LanguageServer/Microsoft.CodeAnalysis.LanguageServer/HostWorkspace/LoadedProject.cs:line 196
+   at Microsoft.CodeAnalysis.LanguageServer.HostWorkspace.LanguageServerProjectSystem.LoadOrReloadProjectAsync(ProjectToLoad projectToLoad, ToastErrorReporter toastErrorReporter, BuildHostProcessManager buildHostProcessManager, CancellationToken cancellationToken) in /_/src/LanguageServer/Microsoft.CodeAnalysis.LanguageServer/HostWorkspace/LanguageServerProjectSystem.cs:line 262
+[LanguageServerHost] [02:32:11.846][End]workspace/buildOnlyDiagnosticIds
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\CsharpExtensionIssue.iOS.csproj (net8.0-ios) now has 5 source file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\CsharpExtensionIssue.iOS.csproj (net8.0-ios) now has 214 reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\CsharpExtensionIssue.iOS.csproj (net8.0-ios) now has 17 analyzer reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\CsharpExtensionIssue.iOS.csproj (net8.0-ios) now has 2 analyzer config file(s).
+[Info  - 4:32:11 AM] [LanguageServerProjectSystem] Successfully completed load of c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\CsharpExtensionIssue.iOS.csproj
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj (net8.0-browser) now has 3 source file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj (net8.0-browser) now has 164 reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj (net8.0-browser) now has 8 analyzer reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj (net8.0-browser) now has 2 analyzer config file(s).
+[Warn  - 4:32:12 AM] [LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj has unresolved dependencies
+[Info  - 4:32:12 AM] [LanguageServerProjectSystem] Successfully completed load of c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\CsharpExtensionIssue.Browser.csproj
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[LanguageServerHost] [02:32:12.234][Start]workspace/diagnostic
+[LanguageServerHost] [02:32:12.234][Start]workspace/diagnostic
+[LanguageServerHost] PublicWorkspacePullDiagnosticsHandler(category: HotReloadDiagnostics) started getting diagnostics
+[LanguageServerHost] previousResults.Length=0
+[LanguageServerHost] Processing 0 documents
+[LanguageServerHost] Closing workspace/diagnostics request
+[LanguageServerHost] Microsoft.CodeAnalysis.LanguageServer.Handler.Diagnostics.Public.PublicWorkspacePullDiagnosticsHandler finished getting diagnostics
+[LanguageServerHost] PublicWorkspacePullDiagnosticsHandler(category: enc) started getting diagnostics
+[LanguageServerHost] [02:32:12.234][End]workspace/diagnostic
+[LanguageServerHost] previousResults.Length=0
+[LanguageServerHost] Processing 0 documents
+[LanguageServerHost] Closing workspace/diagnostics request
+[LanguageServerHost] Microsoft.CodeAnalysis.LanguageServer.Handler.Diagnostics.Public.PublicWorkspacePullDiagnosticsHandler finished getting diagnostics
+[LanguageServerHost] [02:32:12.235][End]workspace/diagnostic
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\CsharpExtensionIssue.Android.csproj (net8.0-android) now has 4 source file(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\CsharpExtensionIssue.Android.csproj (net8.0-android) now has 263 reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\CsharpExtensionIssue.Android.csproj (net8.0-android) now has 17 analyzer reference(s).
+[LanguageServerProjectSystem] Project c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\CsharpExtensionIssue.Android.csproj (net8.0-android) now has 2 analyzer config file(s).
+[Info  - 4:32:12 AM] [LanguageServerProjectSystem] Successfully completed load of c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\CsharpExtensionIssue.Android.csproj
+[Info  - 4:32:12 AM] [LanguageServerProjectSystem] Completed (re)load of all projects in 00:00:01.4852280
+[BuildHost PID 23120] Sending a Shutdown request to the BuildHost.
+[BuildHost PID 23120] Process shut down.
+[BuildHost PID 23120] Message from Process: RPC channel closed; process exiting.
+[LanguageServerHost] Found 11 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\Program.cs in CsharpExtensionIssue.Browser (net8.0-browser)
+[LanguageServerHost] Found 2 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\obj\Debug\net8.0-browser\browser-wasm\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs in CsharpExtensionIssue.Browser (net8.0-browser)
+[LanguageServerHost] Found 2 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\obj\Debug\net8.0-browser\browser-wasm\CsharpExtensionIssue.Browser.AssemblyInfo.cs in CsharpExtensionIssue.Browser (net8.0-browser)
+[LanguageServerHost] Found 0 diagnostics for CsharpExtensionIssue.Browser (net8.0-browser)
+[LanguageServerHost] Found 0 diagnostics for c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj ($net8.0)
+[LanguageServerHost] Found 5 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\Program.cs in CsharpExtensionIssue.Desktop (net8.0)
+[LanguageServerHost] Found 2 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs in CsharpExtensionIssue.Desktop (net8.0)
+[LanguageServerHost] Found 2 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\obj\Debug\net8.0\CsharpExtensionIssue.Desktop.AssemblyInfo.cs in CsharpExtensionIssue.Desktop (net8.0)
+[LanguageServerHost] Found 0 diagnostics for CsharpExtensionIssue.Desktop (net8.0)
+[LanguageServerHost] Found 6 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\AppDelegate.cs in CsharpExtensionIssue.iOS (net8.0-ios)
+[LanguageServerHost] Found 2 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\Main.cs in CsharpExtensionIssue.iOS (net8.0-ios)
+[LanguageServerHost] Found 2 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\obj\Debug\net8.0-ios\iossimulator-x64\CsharpExtensionIssue.iOS.nfloat.g.cs in CsharpExtensionIssue.iOS (net8.0-ios)
+[LanguageServerHost] Found 2 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\obj\Debug\net8.0-ios\iossimulator-x64\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs in CsharpExtensionIssue.iOS (net8.0-ios)
+[LanguageServerHost] Found 2 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\obj\Debug\net8.0-ios\iossimulator-x64\CsharpExtensionIssue.iOS.AssemblyInfo.cs in CsharpExtensionIssue.iOS (net8.0-ios)
+[LanguageServerHost] Found 0 diagnostics for CsharpExtensionIssue.iOS (net8.0-ios)
+[LanguageServerHost] Found 2 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\MainActivity.cs in CsharpExtensionIssue.Android (net8.0-android)
+[LanguageServerHost] Found 2 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\obj\Debug\net8.0-android\__Microsoft.Android.Resource.Designer.cs in CsharpExtensionIssue.Android (net8.0-android)
+[LanguageServerHost] Found 2 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\obj\Debug\net8.0-android\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs in CsharpExtensionIssue.Android (net8.0-android)
+[LanguageServerHost] Found 2 diagnostics for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\obj\Debug\net8.0-android\CsharpExtensionIssue.Android.AssemblyInfo.cs in CsharpExtensionIssue.Android (net8.0-android)
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[LanguageServerHost] [02:32:14.242][Start]workspace/diagnostic
+[LanguageServerHost] PublicWorkspacePullDiagnosticsHandler(category: HotReloadDiagnostics) started getting diagnostics
+[LanguageServerHost] previousResults.Length=0
+[LanguageServerHost] Processing 0 documents
+[LanguageServerHost] [02:32:14.242][Start]workspace/diagnostic
+[LanguageServerHost] PublicWorkspacePullDiagnosticsHandler(category: enc) started getting diagnostics
+[LanguageServerHost] previousResults.Length=0
+[LanguageServerHost] Processing 0 documents
+[LanguageServerHost] Found 0 diagnostics for CsharpExtensionIssue.Android (net8.0-android)
+[LanguageServerHost] Closing workspace/diagnostics request
+[LanguageServerHost] Microsoft.CodeAnalysis.LanguageServer.Handler.Diagnostics.Public.PublicWorkspacePullDiagnosticsHandler finished getting diagnostics
+[LanguageServerHost] [02:32:14.337][End]workspace/diagnostic
+[LanguageServerHost] Request did not contain a textDocument, using default language handler
+[LanguageServerHost] [02:32:16.345][Start]workspace/diagnostic
+[LanguageServerHost] PublicWorkspacePullDiagnosticsHandler(category: WorkspaceDocumentsAndProject) started getting diagnostics
+[LanguageServerHost] previousResults.Length=20
+[LanguageServerHost] Processing 20 documents
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\Program.cs in CsharpExtensionIssue.Browser (net8.0-browser)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\obj\Debug\net8.0-browser\browser-wasm\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs in CsharpExtensionIssue.Browser (net8.0-browser)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Browser\obj\Debug\net8.0-browser\browser-wasm\CsharpExtensionIssue.Browser.AssemblyInfo.cs in CsharpExtensionIssue.Browser (net8.0-browser)
+[LanguageServerHost] Diagnostics were unchanged for CsharpExtensionIssue.Browser (net8.0-browser)
+[LanguageServerHost] Diagnostics were unchanged for c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue\CsharpExtensionIssue.csproj ($net8.0)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\Program.cs in CsharpExtensionIssue.Desktop (net8.0)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs in CsharpExtensionIssue.Desktop (net8.0)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Desktop\obj\Debug\net8.0\CsharpExtensionIssue.Desktop.AssemblyInfo.cs in CsharpExtensionIssue.Desktop (net8.0)
+[LanguageServerHost] Diagnostics were unchanged for CsharpExtensionIssue.Desktop (net8.0)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\AppDelegate.cs in CsharpExtensionIssue.iOS (net8.0-ios)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\Main.cs in CsharpExtensionIssue.iOS (net8.0-ios)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\obj\Debug\net8.0-ios\iossimulator-x64\CsharpExtensionIssue.iOS.nfloat.g.cs in CsharpExtensionIssue.iOS (net8.0-ios)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\obj\Debug\net8.0-ios\iossimulator-x64\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs in CsharpExtensionIssue.iOS (net8.0-ios)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.iOS\obj\Debug\net8.0-ios\iossimulator-x64\CsharpExtensionIssue.iOS.AssemblyInfo.cs in CsharpExtensionIssue.iOS (net8.0-ios)
+[LanguageServerHost] Diagnostics were unchanged for CsharpExtensionIssue.iOS (net8.0-ios)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\MainActivity.cs in CsharpExtensionIssue.Android (net8.0-android)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\obj\Debug\net8.0-android\__Microsoft.Android.Resource.Designer.cs in CsharpExtensionIssue.Android (net8.0-android)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\obj\Debug\net8.0-android\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs in CsharpExtensionIssue.Android (net8.0-android)
+[LanguageServerHost] Diagnostics were unchanged for FullSolutionAnalysisDiagnosticSource: c:\Users\tinta\Documents\Repo\C#\Avalonia\Examples\Issues\csharp-Extension\CsharpExtensionIssue.Android\obj\Debug\net8.0-android\CsharpExtensionIssue.Android.AssemblyInfo.cs in CsharpExtensionIssue.Android (net8.0-android)
+[LanguageServerHost] Diagnostics were unchanged for CsharpExtensionIssue.Android (net8.0-android)
+```
